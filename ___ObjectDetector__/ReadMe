@@ -1,0 +1,5 @@
+The libralies that are used to create the program including
+        1. Open computer Version (OpenCv)
+        2. YOLOv8 organized by ultralytics
+The command used to install the program 
+        " pip install ultralytics opencv-python torch torchvision torchaudio"
