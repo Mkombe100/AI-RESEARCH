@@ -4,4 +4,4 @@ The libralies that are used to create the program including
 The command used to install the program 
         ==> pip install ultralytics opencv-python torch torchvision torchaudio
 To run the program 
-        ==> python --version 
+        ==> python main.py
