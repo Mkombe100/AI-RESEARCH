@@ -1,0 +1,17 @@
+<DECOTYPE>
+<html>
+    <head>
+        <title>bot index file</title>
+    </head>
+    <body>
+       <h1>Your trusted AI assistant in learning</h1>
+       <h2>Chat and progress with your BOT</h2>
+       <form method="POST">
+          <input type="text" name="message" required="width: 300px"><button type="submit">send</button>
+       </form>
+       {% if input_user%}
+        <p><strong>You: </strong>{{input_user}}</p>
+        <p><strong>assistant</strong>{{reply_bot}}</p>
+        {%endif %}
+    </body>
+</html>
